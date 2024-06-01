@@ -1,0 +1,67 @@
+
+
+body{
+    display: column;
+    text-align: center;
+    align-items: center;
+    margin: 30vh; 
+    background-color: rgb(183, 219, 254);  
+}
+
+.whetherform{
+    margin: 20px;
+}
+
+.weatherinput{
+font-size: 2.5em;
+width: 300px;
+ border-radius: 20px;
+ border-color: rgba(166, 168, 170, 0.571);
+ font-family: cursive;
+}
+
+button[type="submit"]{
+ font-size: 2.5em;
+ border-radius: 60px;
+}
+button[type="submit"]:hover{
+    font-size: 3em;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+button[type="submit"]:active{
+    font-size: 3em;
+    background-color:rgb(14, 130, 4);
+    cursor: pointer;
+}
+
+.citydisplay{
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;  
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width:3px;
+    -webkit-text-stroke-color: rgb(249, 115, 204);
+}
+
+
+.card{
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 500px;
+overflow: hidden;
+margin: 20px;
+border-radius: 20px;
+display: flex;
+flex-direction: center;
+align-items: center;
+text-align: center;
+box-shadow:5px 5px 1px rgba(70, 69, 69, 0.671);
+margin-left: 250px;
+font-family: cursive;
+}
+
+.weatheremoji{
+ font-size: 2em;
+}
